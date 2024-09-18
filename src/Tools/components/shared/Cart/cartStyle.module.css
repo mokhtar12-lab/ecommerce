@@ -1,0 +1,38 @@
+.cart{
+    position: relative;
+    cursor: pointer;
+}
+.circleInCart{
+    position: absolute;
+    top: -7px;
+    right: -1px;
+    border: solid 1px #000;
+    border-radius: 50%;
+    background-color: #ffffffbe;
+    color: #0051ff80;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.cartDrobDown {
+    animation: drobDown 500ms ease-out;
+}
+
+@keyframes drobDown {
+    0% {
+        opacity: 0;
+        transform: scale(0.7) ;
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+}

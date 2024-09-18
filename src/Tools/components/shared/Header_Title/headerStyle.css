@@ -1,0 +1,21 @@
+.title {
+    position: relative;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    a{
+        font-size: 27px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        span {
+            background-color: #c0968fbe;
+            padding: 5px;
+            border-radius: 10px 20px;
+        }
+    }
+}
+.line {
+    margin: .5rem 0 !important;
+}

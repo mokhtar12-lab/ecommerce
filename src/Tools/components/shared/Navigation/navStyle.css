@@ -1,0 +1,33 @@
+.navbar {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    background-color: #2c494885;
+    border-radius: 10px;
+    .nav {
+        padding: 5px;
+        li{
+            a {
+                color: #fcfffe;
+            }
+            a.active,
+            a:hover {
+                color: #c2ffad;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .navbar {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 767px){
+    .navbar {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,55 @@
+.body-profile{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    background-color: #A4926B;
+    border-radius: 50px;
+    box-shadow: -3px 1px 20px 0px #A4926B;
+    .part-of-avatar-info{
+        display: flex;
+        .img-avatar{
+            width: 30%;
+            img {
+                margin: 30px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+        .info-profile{
+            width: 100%;
+            margin: 100px 30px 0 0;
+            display: flex;
+            justify-content: space-evenly;
+            p{
+                font-size: 20px;
+                font-weight: bold;
+                span{
+                    color: #fff;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    hr{
+        width: 90%;
+        margin: auto;
+        border: none;
+        border-top: 1px solid #fff;
+    }
+    .part-of-btn-products{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 30px;
+        a{
+            background-color: #c0968fbe;
+            height: 50px;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    }
+}
+
